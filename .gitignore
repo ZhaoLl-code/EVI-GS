@@ -1,0 +1,12 @@
+*.pyc
+__pycache__/
+*.egg-info/
+.vscode/
+.idea/
+.DS_Store
+output/
+build/
+dist/
+screenshots/
+tensorboard_3d/
+*.log

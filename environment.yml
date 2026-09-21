@@ -1,0 +1,16 @@
+name: evi_gs
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - plyfile
+  - tqdm
+  - pip:
+      - torch==2.3.1
+      - torchvision==0.18.1
+      - torchaudio==2.3.1
+      - opencv-python
+      - joblib
