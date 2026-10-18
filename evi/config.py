@@ -19,7 +19,7 @@ class EviConfig:
     calib_frac: float = 0.2
 
     # support_init: FlashSplat-style FG/BG support, then z_i = S+ / (S+ + S-)
-    support_max_views: int = 8
+    support_max_views: int = 0
 
     # Stage 2/3 default ON; --no_learn_export_tau / --no_post_tau_admission disable.
     # Valid combos: support_init | support_init+learn_tau | all three.
